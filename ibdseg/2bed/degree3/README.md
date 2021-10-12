@@ -12,5 +12,5 @@ rule KING_ibdseg3:
     allseg="{prefix}allsegs.txt"
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/ibdseg/2bed/degree3"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/ibdseg/2bed/degree3"
 ```
