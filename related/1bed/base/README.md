@@ -9,5 +9,5 @@ rule KING_related:
     kin="{dataset}.kin",
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/related/1bed/base"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/related/1bed/base"
 ```
