@@ -10,5 +10,5 @@ rule KING_ibs:
     allseg="{prefix}allsegs.txt"
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/ibs/1bed/base"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/ibs/1bed/base"
 ```
