@@ -11,5 +11,5 @@ rule KING_build:
     "{prefix}build.log"
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/build/1bed/base"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/build/1bed/base"
 ```
