@@ -10,5 +10,5 @@ rule KING_kinship:
     kin="{dataset}.kin",
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/kinship/2bed/base"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/kinship/2bed/base"
 ```
