@@ -8,5 +8,5 @@ rule KING_duplicate:
     "{prefix}.con"
   conda:  "../conda/env.yaml"
   wrapper:
-    "https://changit.bwh.harvard.edu/resta/KING_Wrappers/tree/master/duplicate/1bed/base"
+    "https://github.com/CDNMBioinformatics/KING_Wrappers/tree/main/duplicate/1bed/base"
 ```
